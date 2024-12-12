@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    max-width: 1024px;
+    position: fixed;
+    background-color: #fff;
+    height: 40px;
+    min-width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.link-topo{
+    text-decoration: none;
+}
+header span{
+ color: aquamarine;
+}
+.container-principal{
+    background-image: url(assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.container-secundario{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width:400px;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(3, 194, 3, 0.753);
+    position: absolute;
+    top:40%;
+    left:30%;
+    border: #fff 1px solid;
+    border-radius: 3%;
+}
+.container-secundario h1, .container-secundario p{
+    color: #fff;
+}
+.container-textual{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 22px;
+    height: 200px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-quarto{
+    height: 200px;
+    max-width: 300px;
+    
+}
+
+.card-quarto a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    border-bottom: 1px  black solid;
+    
+
+}
+.card-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 600px;
+    
+}
+.card-sobre p{
+    width: 60%;
+    
+}
+.imgSobretipo1{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 450px;
+    top:-40px
+    
+}
+.imgSobretipo2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 50px;
+    
+}
+footer{
+    background-color: green;
+}
+footer h3, footer a, footer p{
+    text-decoration: none;
+    color: #fff;
+}
