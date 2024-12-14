@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    display: flex;
+    max-width: 1024px;
+    position: fixed;
+    background-color: #fff;
+    height: 40px;
+    min-width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.link-topo, .link-home{
+    text-decoration: none;
+    margin: 1px 1px;
+    padding: 1px 1px;
+}
+.link-topo, .link-home:visited{
+    color: rgb(0,0,238);}
+.link-topo:first-child{
+    margin-left: -20%;
+    
+}
+header span{
+ color: rgba(0, 214, 143, 0.938);
+}
+.container-textual{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 22px;
+    height: 200px;
+}
+.container-imagemFundo{
+    background-image: url(assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150px;
+}
+img{
+    height: 200px;
+    width: 300px;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row div{
+    margin: 3% 0.3%;
+}
+.info{
+    
+    
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lista{
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3% 4% ;
+}
+.lista li{
+    width: 230px;
+    text-align: left;
+}
+
+footer{
+    background-color: green;
+}
+footer img{
+    height: 30px ;
+    width: 30px ;
+}
+footer h3, footer a, footer p{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cxConteudo{
+    width:200px;
+    text-align: right;
+    
+    display: inline;
+    padding: 1px 1px;
+    margin: 3px 1px ;
+}
+footer .row:nth-child(2){
+    border-top: 1px solid rgba(0, 0, 0, 0.40);
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+    
