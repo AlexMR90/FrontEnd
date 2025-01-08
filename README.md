@@ -4,3 +4,6 @@ Para fins de organização foram criadas branches para cada projeto e seus camin
 Projeto Perfil: https://github.com/AlexMR90/FrontEnd/tree/main/perfil
 
 projeto Pousada: https://github.com/AlexMR90/FrontEnd/tree/main/pousada-missao10
+
+
+Projeto Padaria: https://github.com/AlexMR90/FrontEnd/tree/main/Padaria
