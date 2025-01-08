@@ -1,3 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
 .topo{
     width:100%;
     font-size: 22px;
@@ -24,6 +31,11 @@ margin:0 30px;
     padding: 7px 15px;
     border-radius: 20px;
 }
+
+.imagem-capa{
+    width: 100%;
+}
+
 .secao{
     width: 100%;
     max-width: 1024px;
