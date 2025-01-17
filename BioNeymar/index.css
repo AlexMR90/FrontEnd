@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.secao_um{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    
+    
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 2px solid green
+}
+
+.info{
+    display: flex;
+    position: absolute;
+    height: 96%;
+    width: 40%;
+    
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    
+    }
+.info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.borda{
+    display: flex;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background:linear-gradient(90deg, #ffdf00,#009c3b);
+    text-align: center;
+    padding: 1%;
+    
+}
+h1{
+    color: #fff;
+    font-family: "Ysabeau Infant";
+}
+h1::after{
+    content: ' ';
+    background-image: url('imagens/verificado.png');
+    background-size: cover;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    
+}
+h1::before{
+    content: '';
+    width: 5.5%;
+    height: 0.5%;
+    background:linear-gradient(90deg, #ffdf00,#009c3b);
+    bottom: 295px;
+    left: 193   px;
+    position: absolute;
+}
+.links-sociais{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #0200006e;
+    border-radius: 15px;
+    height: 6%;
+    margin-left: 16%;
+
+    
+}
+.links-sociais a{
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Ysabeau infant" ;
+}
+.links-sociais a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+span{
+    margin-left: 14%;
+}
+.links-sociais img{
+    width:24px;
+    height: 24px;
+    margin-right: 20px;
+    position: relative;
+    top:24%;
+    left:1%;
+    
+    
+
+}
+
+/*estilos para segunda seção*/
+.secao_dois{
+    border: 2px solid yellow;
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/imagem-de-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+.secao_dois h2{
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    position: relative;
+    margin-top: 80px;
+    font-size: 36px;
+    
+    
+}
+td img{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    
+    
+}
+.times{
+    
+    text-align: justify;
+}
+table{
+    text-align: center;
+
+}
+tr:nth-child(odd){
+    background-color: #000000cc;
+    color: #fff;
+    font-family: "Ysabeau+Infant";
+    
+}
+
+tr:nth-child(even){
+    background-color: #ffffffcc;
+    font-family: "Ysabeau Infant";
+    
+}
+td{
+    padding:5px;
+
+}

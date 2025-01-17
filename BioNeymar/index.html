@@ -3,98 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="index.css">
     <title>link Bio Neymar jr</title>
 </head>
 <body>
-    <div>
-        <video></video>
-        <img src="imagens/neymar.jpg">
-        <section>
-        <a href=""> <img src="imagens/youtube.png"></a>
-        <p>Siga meu canal no YouTube</p>
+    <div class="secao_um">
+        <video src="video/videoneymar.mp4 " autoplay loop muted ></video> <!--autoplay loop muted-->
+        <section class="info">
+            <div class="borda">
+                <img src="imagens/neymar.jpg">
+            </div>
+            <h1>Neymar Jr</h1>
+            <div class="links-sociais">
+                <a href="#" target="_blank">
+                    <img src="imagens/youtube.png">
+                    <span>Siga meu canal no YouTube</span>
+                </a>
+            </div>
+            <div class="links-sociais">
+                <a href="#" target="_blank">
+                    <img src="imagens/instagram.png">
+                    <span>Me siga no Instagram</span>
+                </a>
+            </div>
+            <div class="links-sociais">
+                <a href="#" target="_blank">
+                    <img src="imagens/twitter.png">
+                    <span> Me siga no Twitter</span>
+                </a>
+            </div>
+            <div class="links-sociais">
+                <a href="#" target="_blank">
+                    <img src="imagens/facebook.png">
+                    <span>Me siga no Facebook</span>
+                </a>
+            </div>
+            <div class="links-sociais">
+                <a href="#" target="_blank">
+                    <img src="imagens/twitch.png">
+                    <span>Me siga na Twitch</span>
+                </a>
+            </div>
         </section>
-        <section>
-        <a href=""> <img src="imagens/instagram.png"></a>
-        <p>Me siga no Instagram</p>
-        </section>
-        <section>
-        <a href=""> <img src="imagens/twitter.png"></a>
-        <p>Me siga no Twitter</p>
-        </section>
-        <section>
-        <a href=""> <img src="imagens/facebook.png"></a>
-        <p>Me siga no Facebook</p>
-        </section>
-        <section>
-        <a href=""> <img src="imagens/twitch.png"></a>
-        <p>Me siga na Twitch</p>
-        </section>
+
+
     </div>
-    
-    <div>
-        <h2>Estatísiticas</h2>
+    <div class="secao_dois">
+        <h2>Estatísticas</h2>
         <table>
-            <thead>
+            <tbody></tbody>
                 <tr>
-                    <th>Times </th>
-                    <th>Temporadas </th>
-                    <th>Jogos </th>
-                    <th>Gols </th>
-                    <th>Assistências </th>
-                    <th>Títulos </th>
+                    <td>Times </td>
+                    <td>Temporadas </td>
+                    <td>Jogos </td>
+                    <td>Gols </td>
+                    <td>Assistências </td>
+                    <td>Títulos </td>
                 </tr>
-            </thead>
-            <tbody>
+            
+            
                 <tr>
-                    <td>Brasil </td>
-                    <td>Santos </td>
-                    <td>Barcelona </td>
-                    <td>PSG </td>
-                    <td>Al-Hilal</td>
-                    
-                </tr>
-                <tr>
+                    <td class="times"><img src="imagens/cbf.png">Brasil </td>
                     <td>13 </td>
-                    <td>5 </td>
-                    <td>4</td>
-                    <td>6</td>
-                    <td>1</td>
+                    <td>124  </td>
+                    <td>77  </td>
+                    <td>77 </td>
+                    <td>2</td>
                     
                 </tr>
                 <tr>
-                    <td>124 </td>
+                    <td class="times"><img src="imagens/santos.png">Santos  </td>
+                    <td>5</td>
                     <td>230 </td>
-                    <td>186 </td>
-                    <td>173 </td>
-                    <td>0</td>
-                    
-                </tr>
-                <tr>
-                    <td>77 </td>
                     <td>138 </td>
-                    <td>105 </td>
-                    <td>118 </td>
-                    <td>0</td>
+                    <td>77</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td class="times"><img src="imagens/barcelona.png">Barcelona </td>
+                    <td>4 </td>
+                    <td>186  </td>
+                    <td>105  </td>
+                    <td>77 </td>
+                    <td>13</td>
                     
                 </tr>
                 <tr>
-                    <td>77 </td>
-                    <td>77 </td>
-                    <td>77 </td>
-                    <td>77 </td>
-                    <td>77 </td>
-                    
-                </tr>
-                <tr>
-                    <td>2 </td>
+                    <td class="times"><img src="imagens/psg.png">PSG</td>
                     <td>6 </td>
-                    <td>8 </td>
-                    <td>13 </td>
+                    <td>173  </td>
+                    <td>118  </td>
+                    <td>77 </td>
                     <td>0</td>
                     
                 </tr>
+                <tr>
+                    <td class="times"><img src="imagens/alhilal.png">Al-Hilal </td>
+                    <td>1 </td>
+                    <td>0 </td>
+                    <td>0 </td>
+                    <td>77 </td>
+                    <td>0</td>
+                    
+                </tr>
+                
             </tbody>
         </table>
+        
+
+
     </div>
 </body>
 </html>
