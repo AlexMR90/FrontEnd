@@ -12,17 +12,17 @@ main{
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
-    background-position-y:top ;
+    background-position-y:center ;
     margin-left:5px;
     border-radius: 1%;
-    height: 600px;
+    height: 800px;
     width: 99.33%;
     position: absolute;
     box-shadow:  0px 0px 50px 1px green inset;
     
 }
 header{ border-radius: 1%; box-shadow:  0px 0px 50px 1px green inset; margin: 5px;}
-div{background-color: aquamarine; border-radius: 1%; height: 250px; margin:100px 5px; position: relative;}
+div{background-color: aquamarine; border-radius: 1%; height: 250px; margin:100px 5px; position: relative; top:35%;}
 footer{ border-radius: 1%; box-shadow:  0px 0px 10px 1px green inset; margin-top: 610px;margin-left:5px; height: 33px; }
 
 header p{
@@ -45,9 +45,9 @@ header p{
 #foto{
     width:200px;
     height: 200px;
-    box-shadow:  0px 0px 1px 1px black;
+    box-shadow:  0px 0px 4px 4px black;
     margin-left: 55%;
-    margin-top: -11%;
+    margin-top: -13%;
     display: inline;
     position: relative;
 }
