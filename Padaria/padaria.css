@@ -1,0 +1,71 @@
+body{
+    background-color: bisque;
+}
+h1,h2,h3{
+    font-weight: bold;
+
+    }
+span{font-weight: bold;
+
+ }
+ .secao{
+    width:700px;
+    margin:20px auto;
+    text-align:center;
+   
+ }
+ #logo{
+    margin-left: 50px;
+    width: 200px;
+  
+}
+ 
+ a{
+    display: inline-flex;
+    margin: 10px auto 10px 65px;
+   
+   
+   color: #542f0c;
+ }
+ .separador{
+    background-color: #542f0c;
+    height: 5px;
+    width: 55%;
+    margin-left: 25%;
+ }
+
+ .secaoP{
+    background-color: chocolate;
+    width:700px;
+    margin:20px auto;
+    text-align:center;
+ }
+ .secaoP h3, .secaoP h4, .secaoP p{
+    color: aliceblue;
+ }
+ .secaoP img{
+    margin:10px auto;
+ }
+ .secao  img{
+    width:700px;
+ }
+
+ .secaoC{
+    
+    width:700px;
+    margin:20px auto;
+    text-align:center;
+ } 
+ .secaoC a{
+    margin:0px;
+    
+ }
+ .imgP{
+    
+    width:50%;}
+
+
+/*    *{
+        border: 3px solid black;
+     }
+*/
